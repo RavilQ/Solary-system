@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.solar-system{
+    /* background-color: black; */
+    background-image:url(https://cdn.pixabay.com/photo/2012/02/25/19/11/nightsky-16967_1280.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 697px;
+}
+.sun{
+    /* background-image: url(https://toppng.com/uploads/preview/sun-transparent-background-11549877996b3hvaflom7.png);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-size: 120%;
+    background-position: center;*/
+    margin-top: -379px;
+    margin-left: 627px; 
+    height: 100px;
+    width: 100px;
+    background-color: #fae20a;
+    /* margin-top: -100px;
+    margin-left: -100px; */
+    border-radius: 50%;
+    box-shadow: 0 0 84px orange;
+}
+.orbits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 657px;
+}
+.mercury-orbit{
+    height: 184px;
+    width: 180px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.mercury{
+    width: 20px;
+    height: 20px;
+    /* background-color: brown; */
+    background-image: url(https://toppng.com/uploads/preview/lanet-mercury-transparent-background-mercury-planet-no-background-11563500093ojlpjecizo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: merkuri 2s linear infinite;
+}
+.earth-orbit{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    color: aliceblue;
+    
+}
+.earth{
+    width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    background-image: url(https://e7.pngegg.com/pngimages/216/536/png-clipart-venus-earth-planet-solar-system-venus-sphere-astronomical-object.png);
+    background-position: center;
+    background-size: 180%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: yer 3s linear infinite;
+}
+.venus-orbit{
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.venus{
+    width: 30px;
+    height: 30px;
+    /* background-color: deepskyblue; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Earth_Western_Hemisphere_transparent_background.png/1024px-Earth_Western_Hemisphere_transparent_background.png);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: venera 5s linear infinite;
+}
+.mars-orbit{
+    height: 390px;
+    width: 390px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.mars{
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+    background-image: url(https://www.freepnglogos.com/uploads/mars-png/mars-interactive-solar-system-13.png);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: mars 8s linear infinite;
+}
+.jupiter-orbit{
+    height: 460px;
+    width: 460px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.jupiter{
+    width: 40px;
+    height: 40px;
+    /* background-color: burlywood; */
+    background-image: url(https://www.pngall.com/wp-content/uploads/7/Jupiter-PNG-Free-Download.png);
+    background-position: center;
+    background-size: 150%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: yupiter 10s linear infinite;
+}
+.saturn-orbit{
+    height: 549px;
+    width: 549px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.saturn{
+    width: 35px;
+    height: 35px;
+    /* background-color:yellowgreen; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: saturn 6s linear infinite;
+}
+.uran-orbit{
+    height: 620px;
+    width: 620px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.uran{
+    width: 25px;
+    height: 25px;
+    /* background-color:yellowgreen; */
+    background-image: url(https://banner2.cleanpng.com/20180518/pgb/kisspng-the-nine-planets-earth-planets-beyond-neptune-uran-5aff32ba95acd4.9272924115266741066131.jpg);
+    background-position: center;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: uran 9s linear infinite;
+}
+.neptun-orbit{
+    height: 690px;
+    width: 690px;
+    border-radius: 100%;
+    color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.neptun{
+    width: 25px;
+    height: 25px;
+    /* background-color:yellowgreen; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Neptune_cutout.png/1200px-Neptune_cutout.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: neptun 12s linear infinite;
+}
+@keyframes yer{
+    from{
+        transform: rotate(0deg) translateX(125px);
+    }
+    to{
+        transform: rotate(360deg) translateX(125px);
+    }
+}
+@keyframes merkuri{
+    from{
+        transform: rotate(0deg) translateX(90px);
+    }
+    to{
+        transform: rotate(360deg) translateX(90px);
+    }
+}
+@keyframes venera{
+    from{
+        transform: rotate(0deg) translateX(161px);
+    }
+    to{
+        transform: rotate(360deg) translateX(161px);
+    }
+}
+@keyframes mars{
+    from{
+        transform: rotate(0deg) translateX(199px);
+    }
+    to{
+        transform: rotate(360deg) translateX(199px);
+    }
+}
+@keyframes yupiter{
+    from{
+        transform: rotate(0deg) translateX(235px);
+    }
+    to{
+        transform: rotate(360deg) translateX(235px);
+    }
+}
+@keyframes saturn{
+    from{
+        transform: rotate(0deg) translateX(280px);
+    }
+    to{
+        transform: rotate(360deg) translateX(280px);
+    }
+}
+@keyframes uran{
+    from{
+        transform: rotate(0deg) translateX(315px);
+    }
+    to{
+        transform: rotate(360deg) translateX(315px);
+    }
+}
+@keyframes neptun{
+    from{
+        transform: rotate(0deg) translateX(350px);
+    }
+    to{
+        transform: rotate(360deg) translateX(350px);
+    }
+}
+
